@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-
+var port = process.env.PORT || 8080;
 var month = new Array();
 month[0] = "January";
 month[1] = "February";
@@ -41,7 +41,7 @@ app.get('/:date', function(req, res){
     
 })
 
-var server = app.listen(3000, function () {
+var server = app.listen(port, function () {
   /*var host = process.env.IP;
   var port = process.env.PORT;
 
