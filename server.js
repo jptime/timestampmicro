@@ -41,9 +41,9 @@ app.get('/:date', function(req, res){
     
 })
 
-var server = app.listen(process.env.PORT, function () {
-  var host = process.env.IP;
+var server = app.listen(80, function () {
+  /*var host = process.env.IP;
   var port = process.env.PORT;
 
-  console.log('App listening at http://%s:%s', host, port);
+  console.log('App listening at http://%s:%s', host, port);*/
 });
