@@ -1,0 +1,24 @@
+{
+  "name": "timestampapi",
+  "version": "1.0.0",
+  "description": "Timestamp Microservice. Takes in a date in natural language and convert to Unix timestamp, or the other way around.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "John Petty",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jptime/timestampmicro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jptime/timestampmicro/issues"
+  },
+  "homepage": "https://github.com/jptime/timestampmicro#readme"
+}
