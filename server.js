@@ -41,7 +41,7 @@ app.get('/:date', function(req, res){
     
 })
 
-var server = app.listen(80, function () {
+var server = app.listen(3000, function () {
   /*var host = process.env.IP;
   var port = process.env.PORT;
 
